@@ -1,0 +1,101 @@
+nav li {
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin-right: 30px;
+}
+nav a {
+	text-decoration: none;
+	color: black;	
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: darkgrey;}
+	
+body {background-image: url(https://wallpaperaccess.com/full/119615.jpg);
+background-size: cover;
+background-position: no-repeat;
+background-attachment:fixed;
+
+}
+h1 {
+	color:tomato;
+}
+h2  {
+	color:tomato;
+	font-size: 30px;
+}
+li {
+	font-weight: bold;
+}
+button {
+	border: 2px solid black;
+	padding: 10px 25px;
+	display: block;
+	margin-bottom: 20px;
+}
+button:hover {
+	background-color: black;
+	color: white;
+}
+.redButton {
+	border: 2px solid red;
+}
+.redButton:hover {
+	background-color: red;
+}
+.blueButton{
+	border: 2px solid blue;
+}
+.blueButton:hover {
+	background-color: blue;
+}
+#headshot {
+	position: absolute;
+	top: 10%;
+	right: 20%;
+}
+
+
+#linkBox_content:hover #linkBox_img {
+	transform: scale(1.25);
+}
+#linkBox_content {
+	position: relative;
+	width: 33%;
+	overflow: hidden;
+}
+#linkBox_img {
+	width: 100%;
+	transition: all 1.5s ease-in-out;
+}
+#linkBox_text {
+	position: absolute;
+	top: 30%;
+	left: 12%;
+
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+	margin-bottom: 10px;
+}
+
+#placesHeader {
+	color: blue;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#paragraphSpace {
+	margin-top: 200px;
+}
+form input, form select {
+	display: block;
+}
+.inline {
+	display: inline;
+}
